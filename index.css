@@ -1,0 +1,88 @@
+
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    max-width: 768px; 
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F6F7FB 100%);
+}
+.container{
+    margin: 0 5px;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.header-img{
+    width: 34px;  
+    padding: 24px;
+}
+
+.header-logo{
+    width: 5.25em;
+    padding: 20px;
+}
+
+.dog-img{
+   width: 100%; 
+   border-radius: 15px; 
+}
+
+.card{
+    
+    z-index: 1;
+    width: 100%;
+}
+.dog-info{
+    position: absolute;
+    color: white;
+    bottom: 10px;
+    left: auto;
+    z-index: 2;
+    margin-left: 16px;
+}
+
+.btn-section{
+    display: flex;
+    justify-content: center;
+}
+
+.no-btn, .like-btn {
+    border-radius: 70%;
+    border: none;
+    padding: 1.25em;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 0px 10px 20px #E9E9EA;
+}
+
+ .like-btn:hover , .like-btn:active{
+    transition: 0.4s;
+    background-color: #DBFFF4;
+}
+
+.no-btn:hover, .no-btn:active{
+    transition: 0.4s;
+    background-color: #FFE7EF;
+}
+
+
+/* Typology */
+
+h1{
+    font-size: 32px;
+    font-weight: 700;
+
+}
+
+p{
+    font-size: 24px;
+    font-weight: 400;
+}
