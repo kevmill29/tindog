@@ -72,7 +72,24 @@ header{
     transition: 0.4s;
     background-color: #FFE7EF;
 }
+.badge{
+    z-index: 4;
+    position: absolute; 
+    left: 50px;
+    top: 140px;
+    width: 234px;
+}
 
+.nope{
+    transform: rotate(30deg);
+}
+
+.like{
+    transform: rotate(-30deg);
+}
+.hidden{
+display: none;
+}
 
 /* Typology */
 
@@ -86,3 +103,4 @@ p{
     font-size: 24px;
     font-weight: 400;
 }
+
